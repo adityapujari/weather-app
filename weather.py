@@ -4,7 +4,7 @@ import json
 win =tk.Tk()
 win.title("Weather")
 win.geometry("500x500")
-api="42f9f2e223ed1ef4f90d2211ffbc2a46"
+api="your api key"
 url="http://api.openweathermap.org/data/2.5/weather?"
 def weather():
     location=entry.get()
